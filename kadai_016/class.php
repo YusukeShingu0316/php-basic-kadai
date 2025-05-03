@@ -7,12 +7,12 @@
 <body>
 <p>
   <?php
-  class food {
+  class Food {
 
-    public $name;
-    public $price;
+    private $name;
+    private $price;
     
-    Public function ___construct(string $name, int $price) {
+    Public function __construct(string $name, int $price) {
       $this->name = $name;
       $this->price = $price;
     }
@@ -23,11 +23,11 @@
 
   class Animal {
 
-    public $name;
-    public $height;
-    public $weight;
+    private $name;
+    private $height;
+    private  $weight;
 
-    public function ___constructct(string $name, int $height, int $weight) {
+    public function __constructct(string $name, int $height, int $weight) {
       $this->name = $name;
       $this->height = $height;
       $this->weight = $weight;
@@ -43,10 +43,9 @@
   echo $potato->show_price();
   echo '<br>';
   echo $dog->show_height();
-  echo '<br>';
-  echo $dog->show_weight();
 
-  print_r($Animal);
+  print_r($potato);
+  print_r($dog);
   ?>
   </p>  
 </body>
