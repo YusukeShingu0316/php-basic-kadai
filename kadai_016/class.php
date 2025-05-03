@@ -27,7 +27,7 @@
     private $height;
     private  $weight;
 
-    public function __constructct(string $name, int $height, int $weight) {
+    public function __construct(string $name, int $height, int $weight) {
       $this->name = $name;
       $this->height = $height;
       $this->weight = $weight;
@@ -43,7 +43,7 @@
   echo $potato->show_price();
   echo '<br>';
   echo $dog->show_height();
-
+  echo '<br>';
   print_r($potato);
   print_r($dog);
   ?>
