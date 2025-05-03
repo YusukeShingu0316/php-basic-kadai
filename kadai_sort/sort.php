@@ -13,20 +13,20 @@
   if ($order) {
     echo "昇順にしました<br>";
     sort ($array);
-    foreach ($array as $array) {
+    foreach ($array as $num) {
       echo $num . '<br>';
     }
   }else {
     echo "降順にしました。<br>";
     rsort($array);
-    foreach($array as $array) {
+    foreach($array as $num) {
       echo $num . '<br>';
     }
   }
 }
 
 sort_2way ($array, true);
-sort_2way ($order,false);
+sort_2way ($nums,false);
   ?>
 </p>  
 </body>
