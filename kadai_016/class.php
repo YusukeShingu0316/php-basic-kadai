@@ -12,11 +12,14 @@
     public $name;
     public $price;
     
-    Public function _construct(string $name, int $price) {
+    Public function ___construct(string $name, int $price) {
       $this->name = $name;
       $this->price = $price;
     }
+    public function show_price() {
+      return $this->price;
   }
+}
 
   class Animal {
 
@@ -24,7 +27,7 @@
     public $height;
     public $weight;
 
-    public function _construct(string $name, int $height, int $weight) {
+    public function ___constructct(string $name, int $height, int $weight) {
       $this->name = $name;
       $this->height = $height;
       $this->weight = $weight;
